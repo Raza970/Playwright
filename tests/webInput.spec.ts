@@ -12,7 +12,7 @@ test.describe("Web Inputs Page", () => {
    
   });
 
-  test.only("should clear all inputs", async ({ inputPage }) => {
+  test("should clear all inputs", async ({ inputPage }) => {
     await inputPage.fillNumber("12345");
     await inputPage.fillText("Sample Text");
     await inputPage.fillPassword("password123");

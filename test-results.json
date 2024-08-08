@@ -61,20 +61,20 @@
   },
   "suites": [
     {
-      "title": "MyIpPage.spec.ts",
-      "file": "MyIpPage.spec.ts",
+      "title": "FormValidationPage.spec.ts",
+      "file": "FormValidationPage.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "My IP Information Page",
-          "file": "MyIpPage.spec.ts",
-          "line": 3,
+          "title": "Form Validation Page Tests",
+          "file": "FormValidationPage.spec.ts",
+          "line": 5,
           "column": 6,
           "specs": [
             {
-              "title": "should display correct IP and location information",
+              "title": "should submit the form successfully with valid inputs",
               "ok": true,
               "tags": [],
               "tests": [
@@ -88,22 +88,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6872,
+                      "duration": 6160,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-08-08T15:57:31.124Z",
+                      "startTime": "2024-08-08T20:43:02.955Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c60afdb81005db5865eb-66c4c36bbafc06e75c65",
-              "file": "MyIpPage.spec.ts",
-              "line": 4,
-              "column": 9
+              "id": "563647433f381392289d-d08244c69f97955416ae",
+              "file": "FormValidationPage.spec.ts",
+              "line": 31,
+              "column": 8
             }
           ]
         }
@@ -112,8 +112,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-08T15:57:30.443Z",
-    "duration": 8210.775,
+    "startTime": "2024-08-08T20:43:01.923Z",
+    "duration": 7897.401,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

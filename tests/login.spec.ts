@@ -20,7 +20,7 @@ test.describe("Login functionality", () => {
     await expect(loginPage.isWelcomeMessageVisible()).resolves.toBeTruthy();
   });
 
-  test.only("Login with incorrect credentials", async ({ page }) => {
+  test("Login with incorrect credentials", async ({ page }) => {
     await loginPage.login("wrongUsername", "wrongPas");
     const errorMessage = page.locator("text=your username is invalid!");
     await expect(errorMessage).toBeVisible();
